@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdc95c91bd41c45438c3485454e0ca15, type: 3}
+  m_Name: ShimaSprites
+  m_EditorClassIdentifier: 
+  _fallingObjectList:
+  - {fileID: -5755374571005209912, guid: 0fb6c448589b2f34d957fe7bd1a7c960, type: 3}
+  - {fileID: -5755374571005209912, guid: 650b7f60a0ed26f42b951257813cef8f, type: 3}
+  - {fileID: -5755374571005209912, guid: ebf336553d36d804aaaed97a6b8454e3, type: 3}
+  - {fileID: -5755374571005209912, guid: 3b67b5247e61bc6459ef945c13aaa722, type: 3}
+  - {fileID: -5755374571005209912, guid: 762ef9da62cbc8e47979f8c7eed263ca, type: 3}
+  - {fileID: -5755374571005209912, guid: 5a1270927133423409f37a556fa4271f, type: 3}
+  - {fileID: -5755374571005209912, guid: 396a29f3eadf78647812985b7c9b4888, type: 3}
+  - {fileID: -5755374571005209912, guid: d768b102d5f8846429228dd056f6767a, type: 3}
+  - {fileID: -5755374571005209912, guid: 8b7eeb4e05fb8a24eb58c9b9e84b8226, type: 3}
+  - {fileID: -5755374571005209912, guid: 6fc3afbbe5e86b742af4e5aa5691bd4b, type: 3}
+  - {fileID: -5755374571005209912, guid: b99ec6e43b0f6404c877b5b99cefe443, type: 3}
+  - {fileID: -5755374571005209912, guid: 1d72ef5803644584dba2f91a78e0e072, type: 3}
