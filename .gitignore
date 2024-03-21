@@ -19,6 +19,7 @@ Assets/Plugins/Editor/JetBrains*
 [Ll]ogs/
 Assets/FallingObjects/
 Assets/Sprites/
+Assets/Audio/
 
 # Visual Studio cache directory
 .vs/

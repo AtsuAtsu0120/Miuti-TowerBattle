@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 namespace Core.Components
 {
@@ -9,9 +10,10 @@ namespace Core.Components
         
         private Vector2 _previousPoint;
 
-        private const float MaxPosition = 1.2f;
-        private const float MinPosition = -1.2f;
+        private const float MaxPosition = 1.5f;
+        private const float MinPosition = -1.5f;
         private const float Sensi = 0.005f;
+        private const float RotationAngle = 30f;
 
         public void OnBeginDrag(PointerEventData eventData)
         {
@@ -36,7 +38,16 @@ namespace Core.Components
 
         public void OnRotationButton()
         {
-            FallingObject.transform.Rotate(Vector3.forward, 30f);
+            FallingObject.transform.Rotate(Vector3.forward, RotationAngle);
+        }
+
+        public void Retry()
+        {
+            SceneManager.LoadScene("SampleScene");
+        }
+        public void Home()
+        {
+            SceneManager.LoadScene("Home");
         }
     }
 }
